@@ -5,24 +5,24 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
-class TriangleActivity : AppCompatActivity() {
-    private val TAG = "opengl TriangleActivity"
+class CubeActivity : AppCompatActivity() {
+    private val TAG = "opengl CubeActivity"
 
-    lateinit var triangleView : GLSurfaceView
+    lateinit var cubeView : GLSurfaceView
     // lateinit var jniRender : RenderJni
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        triangleView = TriangleView(this)
-        setContentView(triangleView)
+        cubeView = CubeView(this)
+        setContentView(cubeView)
     }
     
     override fun onPause() {
         super.onPause()
-        triangleView.onPause()
+        cubeView.onPause()
     }
     override fun onResume() {
         super.onResume()
-        triangleView.onResume()
+        cubeView.onResume()
     }
 }

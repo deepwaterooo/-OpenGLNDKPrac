@@ -34,9 +34,16 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("type", 1)
         startActivity(intent)
     }
-    // 点击按钮后，启动 视图 有bug
     fun clickNDKDrawTriangle(view: View) {
         val intent = Intent(this, TriangleActivity::class.java)
+        startActivity(intent)
+    }
+    fun clickDrawRect(view: View) {
+        val intent = Intent(this, RectActivity::class.java)
+        startActivity(intent)
+    }
+    fun clickDrawCube(view: View) {
+        val intent = Intent(this, CubeActivity::class.java)
         startActivity(intent)
     }
 

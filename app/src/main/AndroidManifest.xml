@@ -25,7 +25,8 @@
         </activity>
         <activity android:name=".SimpleRenderActivity"/>
         <activity android:name=".TriangleActivity"/>
-    </application>
-    <!-- android:name=".TriangleActivity" -->
+        <activity android:name=".RectActivity"/>
+        <activity android:name=".CubeActivity"/>
 
+  </application>
 </manifest>

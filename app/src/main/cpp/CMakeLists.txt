@@ -1,5 +1,5 @@
-# cmake_minimum_required(VERSION 3.10.2)
-cmake_minimum_required(VERSION 3.6.0)
+cmake_minimum_required(VERSION 3.10.2)
+# cmake_minimum_required(VERSION 3.6.0)
 
 project("opengl")
 
@@ -18,9 +18,11 @@ else ()
 endif (${ANDROID_PLATFORM_LEVEL} LESS 11)
 
 add_library( # Sets the name of the library.
-        opengl
-        SHARED
-        native-lib.cpp)
+  opengl
+  SHARED
+  native-lib_Triangle.cpp
+  native-lib_Rect.cpp
+  native-lib_Cube.cpp)
 
 find_library( # Sets the name of the path variable.
         log-lib
@@ -31,7 +33,7 @@ target_link_libraries( # Specifies the target library.
   ${OPENGL_LIB}
   android
   EGL
-        m
+  m
   ${log-lib})
 
 # target_link_libraries(triangle-lib

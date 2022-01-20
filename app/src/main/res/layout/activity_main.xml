@@ -23,5 +23,18 @@
       android:layout_height="wrap_content"
       android:onClick="clickNDKDrawTriangle"
       />
-
+  <Button
+      android:text="绘制旋转的矩形"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn_drawRectangle"
+      android:onClick="clickDrawRect"
+      />
+  <Button
+      android:text="绘制一个立方体"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn_drawCube"
+      android:onClick="clickDrawCube"
+      />
 </LinearLayout>

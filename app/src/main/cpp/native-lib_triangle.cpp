@@ -108,12 +108,6 @@ GLuint createProgram(const char* vtxSrc, const char* fragSrc) {
 
 GLuint program;
 
-// extern "C" {
-//     JNIEXPORT jboolean JNICALL Java_com_me_opengl_Triangle_init(JNIEnv* env, jobject obj);
-//     JNIEXPORT void JNICALL Java_com_me_opengl_Triangle_resize(JNIEnv* env, jobject obj, jint width, jint height);
-//     JNIEXPORT void JNICALL Java_com_me_opengl_Triangle_step(JNIEnv* env, jobject obj);
-// }
-
 extern "C" JNIEXPORT jboolean JNICALL
 Java_com_me_opengl_Triangle_init(JNIEnv* env, jobject obj){
     program = createProgram(VERTEX_SHADER, FRAGMENT_SHADER);

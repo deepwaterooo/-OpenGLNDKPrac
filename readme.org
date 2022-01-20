@@ -5,4 +5,18 @@
 * Android NDK OpenGL initial practice
 - starting from the 3D and rendering fundamentals, which I learned but forgot, have to review all the details
 - 觉得自己有3D和opengl的基础，现在能够很好地理解gradle以及cmake ndk-build的构建流程，把ndk的构建捡起来之后，很希望能学习和练习一些底层图像和视频处理的版块，以及更深入地理解CPU性能优化以及渲染优化等
-- 希望通过这些版块的练习，能够把自己用过几年的编程语言、曾经做过的项目、曾经学习过的unity的渲染穿起来，希望能构建和打造自己安卓unity渲染方面的兴趣与基础。
+- 希望通过这些版块的练习，能够把自己用过几年的编程语言(I have practiced c/c++ for more than 3 years, Java for many years, and now practicing Kotlin)、曾经做过的项目(tetris 3D game)、曾经学习过的unity的渲染串起来，希望能构建和打造自己安卓unity渲染方面的兴趣与基础。
+- Bug: 主菜单最后一个按钮旋转的立方体，vertex shader还有一点儿问题，改天等自己再熟练一点儿，会回来把修正过来
+  
+[[./pic/screenshot.png]]
+- 学习安卓，我还并不知道到底该如何深入，会比较多地去学习别人的项目，让自己更多的熟悉自己喜欢有兴趣的模块：比如稍微偏向硬件一点儿相机的android cameara 2，视频处理等，以及偏底层一点儿opengGL openCV ndk层的练习与熟识
+
+
+
+
+
+
+
+
+
+

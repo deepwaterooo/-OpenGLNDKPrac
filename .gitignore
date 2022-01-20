@@ -7,6 +7,8 @@ local.properties
 
 # Log/OS Files
 *.log
+*.tex
+*.pdf
 
 # Android Studio generated files and folders
 captures/
